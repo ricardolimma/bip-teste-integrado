@@ -1,0 +1,174 @@
+openapi: 3.0.3
+info:
+  title: API de Benefícios
+  version: 1.0.0
+  description: API REST para gerenciar benefícios e transferências entre eles.
+servers:
+  - url: http://localhost:8080/api/v1
+paths:
+  /beneficios:
+    get:
+      summary: Lista todos os benefícios
+      responses:
+        '200':
+          description: Lista de benefícios retornada com sucesso
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Beneficio'
+    post:
+      summary: Cria um novo benefício
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BeneficioInput'
+      responses:
+        '201':
+          description: Benefício criado com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Beneficio'
+        '400':
+          description: Requisição inválida
+  /beneficios/{id}:
+    get:
+      summary: Busca um benefício pelo ID
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID do benefício
+      responses:
+        '200':
+          description: Benefício encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Beneficio'
+        '404':
+          description: Benefício não encontrado
+    put:
+      summary: Atualiza um benefício existente
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID do benefício a ser atualizado
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BeneficioInput'
+      responses:
+        '200':
+          description: Benefício atualizado com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Beneficio'
+        '404':
+          description: Benefício não encontrado
+    delete:
+      summary: Deleta um benefício pelo ID
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: ID do benefício a ser deletado
+      responses:
+        '204':
+          description: Benefício deletado com sucesso
+        '404':
+          description: Benefício não encontrado
+
+  /transferencias:
+    post:
+      summary: Realiza transferência entre benefícios
+      parameters:
+        - in: query
+          name: fromId
+          schema:
+            type: integer
+          required: true
+          description: ID do benefício de origem
+        - in: query
+          name: toId
+          schema:
+            type: integer
+          required: true
+          description: ID do benefício de destino
+        - in: query
+          name: amount
+          schema:
+            type: number
+            format: double
+          required: true
+          description: Valor a ser transferido
+      responses:
+        '200':
+          description: Transferência realizada com sucesso
+        '400':
+          description: Parâmetros inválidos ou saldo insuficiente
+        '404':
+          description: Benefício não encontrado
+        '409':
+          description: Conflito de concorrência
+
+components:
+  schemas:
+    Beneficio:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        nome:
+          type: string
+          example: "Vale Alimentação"
+        descricao:
+          type: string
+          example: "Benefício mensal para alimentação"
+        valor:
+          type: number
+          format: double
+          example: 200.0
+        ativo:
+          type: boolean
+          example: true
+      required:
+        - id
+        - nome
+        - valor
+        - ativo
+    BeneficioInput:
+      type: object
+      properties:
+        nome:
+          type: string
+          example: "Vale Alimentação"
+        descricao:
+          type: string
+          example: "Benefício mensal para alimentação"
+        valor:
+          type: number
+          format: double
+          example: 200.0
+        ativo:
+          type: boolean
+          example: true
+      required:
+        - nome
+        - valor
+        - ativo
