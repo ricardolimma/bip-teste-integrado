@@ -5,11 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="929ccb05-7806-476c-b5ff-7eff70ed543c" name="Changes" comment="feat: containers backend">
-      <change afterPath="$PROJECT_DIR$/backend-module/src/test/java/com/example/backend/controller/BeneficioControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend-module/src/test/java/com/example/backend/service/impl/BeneficioServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejb-module/src/test/java/com/example/ejb/service/BeneficioEjbServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejb-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common_http.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common_http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common_http.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_common_http.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_core.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_core.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_forms.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_forms.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_platform-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_platform-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_platform-browser.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/@angular_platform-browser.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-AFLAAHME.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-AFLAAHME.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-KQEFFQTT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-KQEFFQTT.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-RDHXSB74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-RDHXSB74.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-VTSIQ6LA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-VTSIQ6LA.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-WDMUDEB6.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-WDMUDEB6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-WDMUDEB6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/chunk-WDMUDEB6.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/zone__js.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/zone__js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/zone__js.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps/zone__js.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps_ssr/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps_ssr/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps_ssr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/.angular/cache/20.3.9/beneficio/vite/deps_ssr/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/src/app/app.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/src/app/app.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/beneficio/src/app/services/beneficio.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/beneficio/src/app/services/beneficio.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +202,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
