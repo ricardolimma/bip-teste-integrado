@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="929ccb05-7806-476c-b5ff-7eff70ed543c" name="Changes" comment="feat: containers backend">
+      <change afterPath="$PROJECT_DIR$/backend-module/src/test/java/com/example/backend/controller/BeneficioControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend-module/src/test/java/com/example/backend/service/impl/BeneficioServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejb-module/src/test/java/com/example/ejb/service/BeneficioEjbServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejb-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejb-module/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ricardolimma&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ricardolimma/bip-teste-integrado.git&quot;,
+    &quot;accountId&quot;: &quot;169a70c4-5033-412b-baac-6a8dcba22cd7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35IjTI75lFm8qjFSNWOzmX81Ze9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BackendApplication.executor": "Debug",
+    "Application.BeneficioEjbServiceTest.executor": "Run",
+    "Docker.docker-compose.yml.postgres: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "JUnit.BeneficioControllerTest.executor": "Run",
+    "JUnit.BeneficioEjbServiceTest.executor": "Run",
+    "JUnit.BeneficioEjbServiceTest.testTransferConcurrencyException.executor": "Run",
+    "JUnit.BeneficioEjbServiceTest.testTransferInvalidParameters.executor": "Run",
+    "JUnit.BeneficioServiceImplTest.executor": "Run",
+    "Maven. [clean,install].executor": "Run",
+    "Maven. [dependency:resolve,mvn,dependency:tree].executor": "Run",
+    "Maven.backend-module [compile].executor": "Run",
+    "Maven.backend-module [install].executor": "Run",
+    "Maven.bip-teste-integrado [-U,clean,install].executor": "Run",
+    "Maven.bip-teste-integrado [clean,-U].executor": "Run",
+    "Maven.bip-teste-integrado [clean,package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "feature/teste-integrado",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/_projetos/bip-teste-integrado",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_projetos\bip-teste-integrado\backend-module\src\main" />
+      <recent name="C:\_projetos\bip-teste-integrado\backend-module" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.backend.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.ejb.service" />
+      <recent name="com.example.backend.controller" />
+      <recent name="com.example.backend.service.impl" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn dependency:resolve mvn dependency:tree " />
+      <command value="mvn clean -U" />
+      <command value="mvn -U clean install " />
+      <command value="mvn clean package " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="BeneficioControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.backend.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.backend.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.backend.controller.BeneficioControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeneficioEjbServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejb-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ejb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ejb.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ejb.service.BeneficioEjbServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeneficioEjbServiceTest.testTransferConcurrencyException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejb-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ejb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ejb.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ejb.service.BeneficioEjbServiceTest" />
+      <option name="METHOD_NAME" value="testTransferConcurrencyException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeneficioEjbServiceTest.testTransferInvalidParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejb-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ejb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ejb.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ejb.service.BeneficioEjbServiceTest" />
+      <option name="METHOD_NAME" value="testTransferInvalidParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="JUnit.BeneficioEjbServiceTest.testTransferConcurrencyException" />
+        <item itemvalue="JUnit.BeneficioEjbServiceTest.testTransferInvalidParameters" />
+        <item itemvalue="JUnit.BeneficioEjbServiceTest" />
+        <item itemvalue="JUnit.BeneficioControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="929ccb05-7806-476c-b5ff-7eff70ed543c" name="Changes" comment="" />
+      <created>1762804485445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762804485445</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: correcao do bug no BeneficioEjbService e configuracao dos pom">
+      <option name="closed" value="true" />
+      <created>1762811920137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762811920137</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: backend crud">
+      <option name="closed" value="true" />
+      <created>1762821313998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762821313998</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: containers backend">
+      <option name="closed" value="true" />
+      <created>1762857639361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762857639361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: correcao do bug no BeneficioEjbService e configuracao dos pom" />
+    <MESSAGE value="feat: backend crud" />
+    <MESSAGE value="feat: containers backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: containers backend" />
+  </component>
+</project>
