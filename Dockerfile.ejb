@@ -1,0 +1,6 @@
+FROM quay.io/wildfly/wildfly:latest
+
+# Copia o JAR do EJB para o deployments do WildFly
+COPY ejb-module/target/ejb-module-1.0-SNAPSHOT.jar /opt/jboss/wildfly/standalone/deployments/
+
+EXPOSE 8080

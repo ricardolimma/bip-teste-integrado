@@ -1,0 +1,11 @@
+<persistence-unit name="BeneficioPU" transaction-type="JTA">
+    <jta-data-source>java:jboss/datasources/PostgresDS</jta-data-source>
+    <properties>
+        <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+        <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}"/>
+        <property name="jakarta.persistence.jdbc.user" value="${DB_USER}"/>
+        <property name="jakarta.persistence.jdbc.password" value="${DB_PASS}"/>
+        <property name="hibernate.hbm2ddl.auto" value="update"/>
+        <property name="hibernate.show_sql" value="true"/>
+    </properties>
+</persistence-unit>

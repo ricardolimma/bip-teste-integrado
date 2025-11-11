@@ -1,0 +1,46 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_beneficio
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  wildfly:
+    build:
+      context: .
+      dockerfile: Dockerfile.ejb
+    container_name: wildfly_ejb
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: postgres
+      DB_USER: postgres
+      DB_PASS: postgres
+    depends_on:
+      - postgres
+    ports:
+      - "8081:8080"
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: spring_backend
+    environment:
+      EJB_URL: http://wildfly:8080
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on:
+      - wildfly
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_data:
