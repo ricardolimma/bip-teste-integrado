@@ -1,0 +1,39 @@
+<div class="container">
+  <h1>Benefícios</h1>
+
+  <div class="form">
+    <input [(ngModel)]="newBeneficio.nome" placeholder="Nome" />
+    <input [(ngModel)]="newBeneficio.descricao" placeholder="Descrição" />
+    <input [(ngModel)]="newBeneficio.valor" type="number" placeholder="Valor" />
+    <label>
+      <input [(ngModel)]="newBeneficio.ativo" type="checkbox" />
+      Ativo
+    </label>
+    <button (click)="addBeneficio()">Adicionar</button>
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Valor</th>
+        <th>Ativo</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let b of beneficios">
+        <td><input [(ngModel)]="b.nome" /></td>
+        <td><input [(ngModel)]="b.descricao" /></td>
+        <td><input [(ngModel)]="b.valor" type="number" /></td>
+        <td><input [(ngModel)]="b.ativo" type="checkbox" /></td>
+        <td>
+          <button (click)="updateBeneficio(b)">Atualizar</button>
+          <button (click)="deleteBeneficio(b.id)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
